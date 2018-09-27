@@ -854,5 +854,1525 @@
                 "Placed": ""
             }
         ]
+    },
+    {
+        "Username": "dsteenerson",
+        "BrokerId": 562954,
+        "Fstname": "Daniel",
+        "Lstname": "Steenerson",
+        "Password": "P@ssw0rd",
+        "BranchId": 1,
+        "RbmId": 0,
+        "AffiliateId": 0,
+        "Address": "4444 Zion Ave",
+        "City": "San Diego",
+        "StateId": 5,
+        "Email": "it@diservices.com",
+        "AltEmail": "",
+        "Phone": 0,
+        "PhoneExt": 8420,
+        "AltPhone": "",
+        "IsContracted": "true",
+        "NpnId": "0",
+        "Created": "1997-01-01",
+        "LastActive": "2018-09-01",
+        "Apps": [
+            {
+                "Id": 14503104,
+                "PolNo": "CC191530",
+                "Apftnm": "Michelle",
+                "Apltnm": "Jahnke",
+                "Submittd": "2011-12-05 00:00:00",
+                "Placed": "2011-12-27 00:00:00"
+            },
+            {
+                "Id": 15472431,
+                "PolNo": "CC225210",
+                "Apftnm": "Kathalina",
+                "Apltnm": "Monacelli",
+                "Submittd": "2012-05-07 00:00:00",
+                "Placed": "2012-05-22 00:00:00"
+            },
+            {
+                "Id": 16451112,
+                "PolNo": "CC273060",
+                "Apftnm": "Rebecca",
+                "Apltnm": "Sustak",
+                "Submittd": "2012-12-14 00:00:00",
+                "Placed": "2013-01-22 00:00:00"
+            },
+            {
+                "Id": 17929671,
+                "PolNo": "1043466",
+                "Apftnm": "Kevin",
+                "Apltnm": "Stahl",
+                "Submittd": "2013-09-12 00:00:00",
+                "Placed": "2013-09-25 00:00:00"
+            },
+            {
+                "Id": 18406469,
+                "PolNo": "NYCN001050",
+                "Apftnm": "Tamara",
+                "Apltnm": "Brisk",
+                "Submittd": "2013-11-21 00:00:00",
+                "Placed": "2014-01-14 00:00:00"
+            },
+            {
+                "Id": 18345543,
+                "PolNo": "CC348370",
+                "Apftnm": "Jonathan",
+                "Apltnm": "Bashi",
+                "Submittd": "2013-11-20 00:00:00",
+                "Placed": "2014-02-24 00:00:00"
+            },
+            {
+                "Id": 18408331,
+                "PolNo": "6660520",
+                "Apftnm": "Yasamin",
+                "Apltnm": "Yazhari",
+                "Submittd": "2013-11-21 00:00:00",
+                "Placed": "2013-11-21 00:00:00"
+            },
+            {
+                "Id": 18939123,
+                "PolNo": "CC357170",
+                "Apftnm": "Ryan",
+                "Apltnm": "Field",
+                "Submittd": "2014-01-07 00:00:00",
+                "Placed": "2014-01-13 00:00:00"
+            },
+            {
+                "Id": 18941795,
+                "PolNo": "CC357480",
+                "Apftnm": "Celeste",
+                "Apltnm": "Byers",
+                "Submittd": "2014-01-08 00:00:00",
+                "Placed": "2014-02-03 00:00:00"
+            },
+            {
+                "Id": 19177443,
+                "PolNo": "CC362320",
+                "Apftnm": "Linda",
+                "Apltnm": "DeMarco",
+                "Submittd": "2014-02-07 00:00:00",
+                "Placed": "2014-02-13 00:00:00"
+            },
+            {
+                "Id": 19265191,
+                "PolNo": "CC362540",
+                "Apftnm": "Michael",
+                "Apltnm": "Blair",
+                "Submittd": "2014-02-10 00:00:00",
+                "Placed": "2014-07-17 00:00:00"
+            },
+            {
+                "Id": 19295936,
+                "PolNo": "CC365200",
+                "Apftnm": "Matt",
+                "Apltnm": "Williamson",
+                "Submittd": "2014-02-20 00:00:00",
+                "Placed": "2014-04-24 00:00:00"
+            },
+            {
+                "Id": 19265832,
+                "PolNo": "CC362560",
+                "Apftnm": "Mohan",
+                "Apltnm": "Paruchuri",
+                "Submittd": "2014-02-10 00:00:00",
+                "Placed": "2014-03-12 00:00:00"
+            },
+            {
+                "Id": 19320031,
+                "PolNo": "CC367240",
+                "Apftnm": "Brendan",
+                "Apltnm": "Donohoe",
+                "Submittd": "2014-03-03 00:00:00",
+                "Placed": "2014-04-21 00:00:00"
+            },
+            {
+                "Id": 18550130,
+                "PolNo": "CC351620",
+                "Apftnm": "Amy",
+                "Apltnm": "Palmisano",
+                "Submittd": "2013-12-06 00:00:00",
+                "Placed": "2014-05-01 00:00:00"
+            },
+            {
+                "Id": 18550121,
+                "PolNo": "CC351610",
+                "Apftnm": "Maria",
+                "Apltnm": "David",
+                "Submittd": "2013-12-06 00:00:00",
+                "Placed": "2014-02-18 00:00:00"
+            },
+            {
+                "Id": 18546195,
+                "PolNo": "CC351460",
+                "Apftnm": "Cynthia",
+                "Apltnm": "Malla",
+                "Submittd": "2013-12-05 00:00:00",
+                "Placed": "2014-02-24 00:00:00"
+            },
+            {
+                "Id": 18640975,
+                "PolNo": "CC353380",
+                "Apftnm": "Napanda",
+                "Apltnm": "Pemmaiah",
+                "Submittd": "2013-12-11 00:00:00",
+                "Placed": "2014-01-17 00:00:00"
+            },
+            {
+                "Id": 18345673,
+                "PolNo": "CC347700",
+                "Apftnm": "David",
+                "Apltnm": "Sollis",
+                "Submittd": "2013-11-18 00:00:00",
+                "Placed": "2014-02-24 00:00:00"
+            },
+            {
+                "Id": 19723654,
+                "PolNo": "CC375510",
+                "Apftnm": "Troy",
+                "Apltnm": "March",
+                "Submittd": "2014-04-08 00:00:00",
+                "Placed": "2014-05-12 00:00:00"
+            },
+            {
+                "Id": 19723676,
+                "PolNo": "CC377840",
+                "Apftnm": "Dayna",
+                "Apltnm": "Laur",
+                "Submittd": "2014-04-08 00:00:00",
+                "Placed": "2014-06-02 00:00:00"
+            },
+            {
+                "Id": 19942550,
+                "PolNo": "C7736930",
+                "Apftnm": "Christopher",
+                "Apltnm": "Davidson",
+                "Submittd": "2014-04-24 00:00:00",
+                "Placed": "2001-04-10 00:00:00"
+            },
+            {
+                "Id": 19710786,
+                "PolNo": "6872766",
+                "Apftnm": "Sarah",
+                "Apltnm": "Meil",
+                "Submittd": "2014-04-03 00:00:00",
+                "Placed": "2014-06-02 00:00:00"
+            },
+            {
+                "Id": 20289434,
+                "PolNo": "4150613512",
+                "Apftnm": "Amy",
+                "Apltnm": "Palmisano",
+                "Submittd": "2014-06-06 00:00:00",
+                "Placed": "2014-07-08 00:00:00"
+            },
+            {
+                "Id": 20418211,
+                "PolNo": "CC400810",
+                "Apftnm": "Caitlin",
+                "Apltnm": "Taylor",
+                "Submittd": "2014-07-23 00:00:00",
+                "Placed": "2014-08-11 00:00:00"
+            },
+            {
+                "Id": 20422082,
+                "PolNo": "7850415",
+                "Apftnm": "Esther",
+                "Apltnm": "Castro",
+                "Submittd": "2014-07-24 00:00:00",
+                "Placed": "2014-08-08 00:00:00"
+            },
+            {
+                "Id": 20430926,
+                "PolNo": "7850815",
+                "Apftnm": "Jackie",
+                "Apltnm": "Silkey",
+                "Submittd": "2014-07-30 00:00:00",
+                "Placed": "2014-09-19 00:00:00"
+            },
+            {
+                "Id": 20436779,
+                "PolNo": "4150622012",
+                "Apftnm": "Jacque",
+                "Apltnm": "Cauffman",
+                "Submittd": "2014-08-01 00:00:00",
+                "Placed": "2014-09-15 00:00:00"
+            },
+            {
+                "Id": 20445077,
+                "PolNo": "7851383",
+                "Apftnm": "Jeremy",
+                "Apltnm": "Hand",
+                "Submittd": "2014-08-07 00:00:00",
+                "Placed": "2014-09-10 00:00:00"
+            },
+            {
+                "Id": 20445180,
+                "PolNo": "545241-91",
+                "Apftnm": "Jacque",
+                "Apltnm": "Cauffman",
+                "Submittd": "2014-08-07 00:00:00",
+                "Placed": "2014-09-15 00:00:00"
+            },
+            {
+                "Id": 20441896,
+                "PolNo": "CC407760",
+                "Apftnm": "Mary Theresa",
+                "Apltnm": "Abell",
+                "Submittd": "2014-08-05 00:00:00",
+                "Placed": "2014-09-15 00:00:00"
+            },
+            {
+                "Id": 20478022,
+                "PolNo": "CC408440",
+                "Apftnm": "Shifali",
+                "Apltnm": "Saini",
+                "Submittd": "2014-08-26 00:00:00",
+                "Placed": "2014-12-05 00:00:00"
+            },
+            {
+                "Id": 20597407,
+                "PolNo": "667616-90-1",
+                "Apftnm": "Matthew",
+                "Apltnm": "Lansberry",
+                "Submittd": "2014-10-31 00:00:00",
+                "Placed": "2014-11-18 00:00:00"
+            },
+            {
+                "Id": 20646528,
+                "PolNo": "CC273060-1",
+                "Apftnm": "Rebecca",
+                "Apltnm": "Sustak",
+                "Submittd": "2014-11-25 00:00:00",
+                "Placed": "2014-11-25 00:00:00"
+            },
+            {
+                "Id": 20709881,
+                "PolNo": "CC191530-1",
+                "Apftnm": "Michelle",
+                "Apltnm": "Jahnke",
+                "Submittd": "2015-01-05 00:00:00",
+                "Placed": "2015-01-05 00:00:00"
+            },
+            {
+                "Id": 20971239,
+                "PolNo": "33-326436",
+                "Apftnm": "Frank",
+                "Apltnm": "Latino",
+                "Submittd": "2015-03-09 00:00:00",
+                "Placed": "2015-06-22 00:00:00"
+            },
+            {
+                "Id": 20980105,
+                "PolNo": "1580917",
+                "Apftnm": "Marc",
+                "Apltnm": "Digennaro",
+                "Submittd": "2015-04-30 00:00:00",
+                "Placed": "2015-05-04 00:00:00"
+            },
+            {
+                "Id": 21047915,
+                "PolNo": "CC129490-1",
+                "Apftnm": "Joel",
+                "Apltnm": "Mills",
+                "Submittd": "2015-03-31 00:00:00",
+                "Placed": "2015-03-31 00:00:00"
+            },
+            {
+                "Id": 21277981,
+                "PolNo": "CC472310",
+                "Apftnm": "Richard",
+                "Apltnm": "Gill",
+                "Submittd": "2015-06-15 00:00:00",
+                "Placed": "2015-08-10 00:00:00"
+            },
+            {
+                "Id": 21278145,
+                "PolNo": "7874190",
+                "Apftnm": "Stephen",
+                "Apltnm": "Ashburn",
+                "Submittd": "2015-06-15 00:00:00",
+                "Placed": "2015-10-16 00:00:00"
+            },
+            {
+                "Id": 21448061,
+                "PolNo": "CC480390",
+                "Apftnm": "Cortney",
+                "Apltnm": "Akerlind",
+                "Submittd": "2015-07-28 00:00:00",
+                "Placed": "2015-10-01 00:00:00"
+            },
+            {
+                "Id": 21494534,
+                "PolNo": "7850415-1",
+                "Apftnm": "Esther",
+                "Apltnm": "Castro",
+                "Submittd": "2015-08-20 00:00:00",
+                "Placed": "2015-08-20 00:00:00"
+            },
+            {
+                "Id": 21550097,
+                "PolNo": "7882034",
+                "Apftnm": "Irwinder",
+                "Apltnm": "Singh",
+                "Submittd": "2015-09-16 00:00:00",
+                "Placed": "2015-11-10 00:00:00"
+            },
+            {
+                "Id": 21564356,
+                "PolNo": "CC491580",
+                "Apftnm": "Robert",
+                "Apltnm": "Millott",
+                "Submittd": "2015-09-23 00:00:00",
+                "Placed": "2016-02-12 00:00:00"
+            },
+            {
+                "Id": 21588453,
+                "PolNo": "CC494010",
+                "Apftnm": "Sylvan",
+                "Apltnm": "Lumsden",
+                "Submittd": "2015-10-06 00:00:00",
+                "Placed": "2016-01-05 00:00:00"
+            },
+            {
+                "Id": 21589936,
+                "PolNo": "6688354",
+                "Apftnm": "Martin",
+                "Apltnm": "Kelly",
+                "Submittd": "2015-10-06 00:00:00",
+                "Placed": "2016-01-21 00:00:00"
+            },
+            {
+                "Id": 21611722,
+                "PolNo": "CC496230",
+                "Apftnm": "Michael",
+                "Apltnm": "Jecen",
+                "Submittd": "2015-10-16 00:00:00",
+                "Placed": "2015-11-30 00:00:00"
+            },
+            {
+                "Id": 21589842,
+                "PolNo": "1586462",
+                "Apftnm": "Kelly",
+                "Apltnm": "Dennis",
+                "Submittd": "2015-10-29 00:00:00",
+                "Placed": "2015-11-20 00:00:00"
+            },
+            {
+                "Id": 21692146,
+                "PolNo": "CC501180",
+                "Apftnm": "Molly",
+                "Apltnm": "Wilkinson",
+                "Submittd": "2015-11-13 00:00:00",
+                "Placed": "2016-01-27 00:00:00"
+            },
+            {
+                "Id": 21733581,
+                "PolNo": "CC504770",
+                "Apftnm": "Cynthia",
+                "Apltnm": "Garces",
+                "Submittd": "2015-11-23 00:00:00",
+                "Placed": "2016-02-19 00:00:00"
+            },
+            {
+                "Id": 21748582,
+                "PolNo": "CC273060-Z",
+                "Apftnm": "Rebecca",
+                "Apltnm": "Sustak",
+                "Submittd": "2015-11-30 00:00:00",
+                "Placed": "2015-11-30 00:00:00"
+            },
+            {
+                "Id": 21756228,
+                "PolNo": "CC408440-Z",
+                "Apftnm": "Shifali",
+                "Apltnm": "Saini",
+                "Submittd": "2015-12-03 00:00:00",
+                "Placed": "2015-12-03 00:00:00"
+            },
+            {
+                "Id": 21774653,
+                "PolNo": "CC506470",
+                "Apftnm": "Martin",
+                "Apltnm": "Kelly",
+                "Submittd": "2015-12-10 00:00:00",
+                "Placed": "2016-01-15 00:00:00"
+            },
+            {
+                "Id": 21985364,
+                "PolNo": "CC521260",
+                "Apftnm": "Kegan",
+                "Apltnm": "Greene",
+                "Submittd": "2016-03-09 00:00:00",
+                "Placed": "2016-06-30 00:00:00"
+            },
+            {
+                "Id": 22033691,
+                "PolNo": "CC524290",
+                "Apftnm": "Siao",
+                "Apltnm": "Greene",
+                "Submittd": "2016-03-25 00:00:00",
+                "Placed": "2016-06-22 00:00:00"
+            },
+            {
+                "Id": 22071706,
+                "PolNo": "6694910",
+                "Apftnm": "Carroll",
+                "Apltnm": "Shivers",
+                "Submittd": "2016-04-12 00:00:00",
+                "Placed": "2016-09-15 00:00:00"
+            },
+            {
+                "Id": 22116129,
+                "PolNo": "NGL00001000",
+                "Apftnm": "CAROLINE",
+                "Apltnm": "MCBRIDE",
+                "Submittd": "2016-05-02 00:00:00",
+                "Placed": "2016-05-03 00:00:00"
+            },
+            {
+                "Id": 22167148,
+                "PolNo": "NYCN009270",
+                "Apftnm": "Mark",
+                "Apltnm": "Supplee",
+                "Submittd": "2016-05-20 00:00:00",
+                "Placed": "2016-10-04 00:00:00"
+            },
+            {
+                "Id": 22167268,
+                "PolNo": "CC536100",
+                "Apftnm": "Phillip",
+                "Apltnm": "Zolan",
+                "Submittd": "2016-05-20 00:00:00",
+                "Placed": "2016-07-26 00:00:00"
+            },
+            {
+                "Id": 22167289,
+                "PolNo": "CC536120",
+                "Apftnm": "Gaganbir",
+                "Apltnm": "Panjhazari",
+                "Submittd": "2016-05-20 00:00:00",
+                "Placed": "2016-08-11 00:00:00"
+            },
+            {
+                "Id": 22180718,
+                "PolNo": "CC534750",
+                "Apftnm": "Erik",
+                "Apltnm": "Swanson",
+                "Submittd": "2016-05-24 00:00:00",
+                "Placed": "2016-07-06 00:00:00"
+            },
+            {
+                "Id": 22188223,
+                "PolNo": "LS00051142",
+                "Apftnm": "Daniel",
+                "Apltnm": "Steenerson",
+                "Submittd": "2016-05-27 00:00:00",
+                "Placed": "2016-07-08 00:00:00"
+            },
+            {
+                "Id": 22188389,
+                "PolNo": "LS00051144",
+                "Apftnm": "Tammy",
+                "Apltnm": "Steenerson",
+                "Submittd": "2016-05-27 00:00:00",
+                "Placed": "2016-07-08 00:00:00"
+            },
+            {
+                "Id": 22255725,
+                "PolNo": "NGL00001017",
+                "Apftnm": "BILL",
+                "Apltnm": "HODGKINS",
+                "Submittd": "2016-06-29 00:00:00",
+                "Placed": "2016-07-29 00:00:00"
+            },
+            {
+                "Id": 22269208,
+                "PolNo": "7905868",
+                "Apftnm": "Mark",
+                "Apltnm": "Kogan",
+                "Submittd": "2016-07-06 00:00:00",
+                "Placed": "2016-08-26 00:00:00"
+            },
+            {
+                "Id": 22279528,
+                "PolNo": "1692929",
+                "Apftnm": "Kevin",
+                "Apltnm": "Huang",
+                "Submittd": "2016-07-12 00:00:00",
+                "Placed": "2016-09-22 00:00:00"
+            },
+            {
+                "Id": 22290573,
+                "PolNo": "7906852",
+                "Apftnm": "Dustin",
+                "Apltnm": "Moore",
+                "Submittd": "2016-07-18 00:00:00",
+                "Placed": "2017-01-03 00:00:00"
+            },
+            {
+                "Id": 22324977,
+                "PolNo": "CC551790",
+                "Apftnm": "William",
+                "Apltnm": "Chavez",
+                "Submittd": "2016-08-03 00:00:00",
+                "Placed": "2016-09-15 00:00:00"
+            },
+            {
+                "Id": 22348621,
+                "PolNo": "NGL00001020",
+                "Apftnm": "DAVID",
+                "Apltnm": "WEISBERG",
+                "Submittd": "2016-08-12 00:00:00",
+                "Placed": "2016-08-12 00:00:00"
+            },
+            {
+                "Id": 22356568,
+                "PolNo": "7850415-Z",
+                "Apftnm": "Esther",
+                "Apltnm": "Castro",
+                "Submittd": "2016-08-17 00:00:00",
+                "Placed": "2016-08-17 00:00:00"
+            },
+            {
+                "Id": 22225212,
+                "PolNo": "NGL00001014",
+                "Apftnm": "DARREL",
+                "Apltnm": "FITCH",
+                "Submittd": "2016-06-15 00:00:00",
+                "Placed": "2016-06-15 00:00:00"
+            },
+            {
+                "Id": 22368511,
+                "PolNo": "NGL00001021",
+                "Apftnm": "DARLENE",
+                "Apltnm": "DARDEN",
+                "Submittd": "2016-08-23 00:00:00",
+                "Placed": "2016-08-23 00:00:00"
+            },
+            {
+                "Id": 22381718,
+                "PolNo": "NGL00001022",
+                "Apftnm": "ANDREW",
+                "Apltnm": "COWAN",
+                "Submittd": "2016-08-30 00:00:00",
+                "Placed": "2016-09-08 00:00:00"
+            },
+            {
+                "Id": 22410100,
+                "PolNo": "CC559310",
+                "Apftnm": "Barbara",
+                "Apltnm": "Ziegler",
+                "Submittd": "2016-09-13 00:00:00",
+                "Placed": "2016-12-14 00:00:00"
+            },
+            {
+                "Id": 22443584,
+                "PolNo": "CC561220",
+                "Apftnm": "Kevin",
+                "Apltnm": "Sauer",
+                "Submittd": "2016-09-28 00:00:00",
+                "Placed": "2016-10-24 00:00:00"
+            },
+            {
+                "Id": 22501769,
+                "PolNo": "CC480390-Z",
+                "Apftnm": "Cortney",
+                "Apltnm": "Akerlind",
+                "Submittd": "2016-10-10 00:00:00",
+                "Placed": "2016-10-10 00:00:00"
+            },
+            {
+                "Id": 22508544,
+                "PolNo": "NGL00001023",
+                "Apftnm": "BAILEY",
+                "Apltnm": "HINCKLEY",
+                "Submittd": "2016-10-12 00:00:00",
+                "Placed": "2016-10-12 00:00:00"
+            },
+            {
+                "Id": 22614023,
+                "PolNo": "CC273060-Y",
+                "Apftnm": "Rebecca",
+                "Apltnm": "Sustak",
+                "Submittd": "2016-11-28 00:00:00",
+                "Placed": "2016-11-28 00:00:00"
+            },
+            {
+                "Id": 22631335,
+                "PolNo": "CC408440-Y",
+                "Apftnm": "Shifali",
+                "Apltnm": "Saini",
+                "Submittd": "2016-12-05 00:00:00",
+                "Placed": "2016-12-05 00:00:00"
+            },
+            {
+                "Id": 22638679,
+                "PolNo": "NGL00001025",
+                "Apftnm": "REGINALD",
+                "Apltnm": "BRADSHAW I I",
+                "Submittd": "2016-12-07 00:00:00",
+                "Placed": "2016-12-07 00:00:00"
+            },
+            {
+                "Id": 22709432,
+                "PolNo": "NGL00001026",
+                "Apftnm": "VINCENT",
+                "Apltnm": "REAVER JR",
+                "Submittd": "2016-12-30 00:00:00",
+                "Placed": "2016-12-30 00:00:00"
+            },
+            {
+                "Id": 22729994,
+                "PolNo": "CC191530-Z",
+                "Apftnm": "Michelle",
+                "Apltnm": "Jahnke",
+                "Submittd": "2017-01-11 00:00:00",
+                "Placed": "2017-01-11 00:00:00"
+            },
+            {
+                "Id": 22762452,
+                "PolNo": "NGL00001027",
+                "Apftnm": "DEREK",
+                "Apltnm": "STREICH",
+                "Submittd": "2017-01-17 00:00:00",
+                "Placed": "2017-02-17 00:00:00"
+            },
+            {
+                "Id": 22765744,
+                "PolNo": "NGL00001028",
+                "Apftnm": "LAWRENCE",
+                "Apltnm": "BUCHERT JR",
+                "Submittd": "2017-01-18 00:00:00",
+                "Placed": "2017-02-01 00:00:00"
+            },
+            {
+                "Id": 22791080,
+                "PolNo": "CC506470-z",
+                "Apftnm": "Martin",
+                "Apltnm": "Kelly",
+                "Submittd": "2017-01-30 00:00:00",
+                "Placed": "2017-01-31 00:00:00"
+            },
+            {
+                "Id": 22794849,
+                "PolNo": "NGL00001030",
+                "Apftnm": "SCOTT",
+                "Apltnm": "TURNER",
+                "Submittd": "2017-01-31 00:00:00",
+                "Placed": "2017-01-31 00:00:00"
+            },
+            {
+                "Id": 22116130,
+                "PolNo": "NGL00001003",
+                "Apftnm": "HUNTER",
+                "Apltnm": "THOMPSON",
+                "Submittd": "2016-05-02 00:00:00",
+                "Placed": "2016-05-09 00:00:00"
+            },
+            {
+                "Id": 22116131,
+                "PolNo": "NGL00001002",
+                "Apftnm": "MICHELLE",
+                "Apltnm": "MCINN",
+                "Submittd": "2016-05-02 00:00:00",
+                "Placed": "2016-05-09 00:00:00"
+            },
+            {
+                "Id": 22116132,
+                "PolNo": "NGL00001001",
+                "Apftnm": "JUDIT",
+                "Apltnm": "UVEGES",
+                "Submittd": "2016-05-02 00:00:00",
+                "Placed": "2016-05-09 00:00:00"
+            },
+            {
+                "Id": 22138459,
+                "PolNo": "NGL00001007",
+                "Apftnm": "TASCHA",
+                "Apltnm": "CROWELL",
+                "Submittd": "2016-05-09 00:00:00",
+                "Placed": "2016-05-09 00:00:00"
+            },
+            {
+                "Id": 22187336,
+                "PolNo": "NGL00001011",
+                "Apftnm": "PRADEEP",
+                "Apltnm": "AUDHO",
+                "Submittd": "2016-05-26 00:00:00",
+                "Placed": "2016-05-26 00:00:00"
+            },
+            {
+                "Id": 22201172,
+                "PolNo": "NGL00001013",
+                "Apftnm": "JANE",
+                "Apltnm": "DOE",
+                "Submittd": "2016-06-03 00:00:00",
+                "Placed": "2016-06-03 00:00:00"
+            },
+            {
+                "Id": 22116128,
+                "PolNo": "NGL00001004",
+                "Apftnm": "CHRIS",
+                "Apltnm": "HAIRE",
+                "Submittd": "2016-05-02 00:00:00",
+                "Placed": "2016-05-09 00:00:00"
+            },
+            {
+                "Id": 22138460,
+                "PolNo": "NGL00001008",
+                "Apftnm": "JOHN",
+                "Apltnm": "DOE",
+                "Submittd": "2016-05-09 00:00:00",
+                "Placed": "2016-05-09 00:00:00"
+            },
+            {
+                "Id": 22138457,
+                "PolNo": "NGL00001005",
+                "Apftnm": "JODEE",
+                "Apltnm": "KUHL MS",
+                "Submittd": "2016-05-09 00:00:00",
+                "Placed": "2016-06-03 00:00:00"
+            },
+            {
+                "Id": 22138458,
+                "PolNo": "NGL00001006",
+                "Apftnm": "FRED",
+                "Apltnm": "SAMPLE",
+                "Submittd": "2016-05-09 00:00:00",
+                "Placed": "2016-05-09 00:00:00"
+            },
+            {
+                "Id": 22162401,
+                "PolNo": "NGL00001009",
+                "Apftnm": "DEREK",
+                "Apltnm": "STREICH",
+                "Submittd": "2016-05-19 00:00:00",
+                "Placed": "2016-06-17 00:00:00"
+            },
+            {
+                "Id": 22185462,
+                "PolNo": "NGL00001010",
+                "Apftnm": "JODI",
+                "Apltnm": "KRUGER",
+                "Submittd": "2016-05-26 00:00:00",
+                "Placed": "2016-06-24 00:00:00"
+            },
+            {
+                "Id": 22833003,
+                "PolNo": "NGL00001031",
+                "Apftnm": "JARRET",
+                "Apltnm": "PATERSON",
+                "Submittd": "2017-02-13 00:00:00",
+                "Placed": "2017-02-13 00:00:00"
+            },
+            {
+                "Id": 22834449,
+                "PolNo": "NGL00001032",
+                "Apftnm": "PAUL",
+                "Apltnm": "FLEMING",
+                "Submittd": "2017-02-13 00:00:00",
+                "Placed": "2017-02-13 00:00:00"
+            },
+            {
+                "Id": 22841539,
+                "PolNo": "6735813",
+                "Apftnm": "MICHAEL R.",
+                "Apltnm": "ADKINS",
+                "Submittd": "2004-11-23 00:00:00",
+                "Placed": "2005-01-10 00:00:00"
+            },
+            {
+                "Id": 22843115,
+                "PolNo": "C9224420",
+                "Apftnm": "Dimitar",
+                "Apltnm": "Dentchev",
+                "Submittd": "2005-06-21 00:00:00",
+                "Placed": "2005-10-06 00:00:00"
+            },
+            {
+                "Id": 22843624,
+                "PolNo": "C7671270",
+                "Apftnm": "DANIEL",
+                "Apltnm": "STEENERSON",
+                "Submittd": "1999-09-08 00:00:00",
+                "Placed": "1999-09-15 00:00:00"
+            },
+            {
+                "Id": 22845700,
+                "PolNo": "7629690",
+                "Apftnm": "CHARLES",
+                "Apltnm": "TALCOTT",
+                "Submittd": "1999-01-15 00:00:00",
+                "Placed": "1999-02-26 00:00:00"
+            },
+            {
+                "Id": 22848054,
+                "PolNo": "8524980",
+                "Apftnm": "ANN",
+                "Apltnm": "TALCOTT",
+                "Submittd": "2000-05-23 00:00:00",
+                "Placed": "2000-06-20 00:00:00"
+            },
+            {
+                "Id": 22850372,
+                "PolNo": "C7580650",
+                "Apftnm": "ROBERT",
+                "Apltnm": "BRENDEL",
+                "Submittd": "1998-06-29 00:00:00",
+                "Placed": "1998-07-16 00:00:00"
+            },
+            {
+                "Id": 22851791,
+                "PolNo": "DMS22421",
+                "Apftnm": "Maureen",
+                "Apltnm": "Kindred",
+                "Submittd": "2008-03-24 00:00:00",
+                "Placed": ""
+            },
+            {
+                "Id": 22852517,
+                "PolNo": "C7728660",
+                "Apftnm": "Steven",
+                "Apltnm": "Johnson",
+                "Submittd": "2000-10-24 00:00:00",
+                "Placed": "2000-12-08 00:00:00"
+            },
+            {
+                "Id": 22853269,
+                "PolNo": "C9633210",
+                "Apftnm": "Lisajeanne",
+                "Apltnm": "Potyk",
+                "Submittd": "2008-07-30 00:00:00",
+                "Placed": "2008-08-25 00:00:00"
+            },
+            {
+                "Id": 22858196,
+                "PolNo": "C9879720",
+                "Apftnm": "Sandi",
+                "Apltnm": "Bralick",
+                "Submittd": "2009-09-17 00:00:00",
+                "Placed": "2009-11-06 00:00:00"
+            },
+            {
+                "Id": 22858485,
+                "PolNo": "C8038360",
+                "Apftnm": "Geoffrey",
+                "Apltnm": "Dempewolf",
+                "Submittd": "2009-10-26 00:00:00",
+                "Placed": "2009-11-19 00:00:00"
+            },
+            {
+                "Id": 22858486,
+                "PolNo": "C8038380",
+                "Apftnm": "Claudette",
+                "Apltnm": "McKay",
+                "Submittd": "2009-10-26 00:00:00",
+                "Placed": "2009-11-19 00:00:00"
+            },
+            {
+                "Id": 22858487,
+                "PolNo": "C8038400",
+                "Apftnm": "Kelli",
+                "Apltnm": "Satterly",
+                "Submittd": "2009-10-26 00:00:00",
+                "Placed": "2009-11-19 00:00:00"
+            },
+            {
+                "Id": 22858488,
+                "PolNo": "C8038370",
+                "Apftnm": "Elizabeth",
+                "Apltnm": "HERRINGTON",
+                "Submittd": "2009-10-26 00:00:00",
+                "Placed": "2009-11-19 00:00:00"
+            },
+            {
+                "Id": 22858489,
+                "PolNo": "C8038350",
+                "Apftnm": "Sara",
+                "Apltnm": "Neumann",
+                "Submittd": "2009-10-26 00:00:00",
+                "Placed": "2009-11-05 00:00:00"
+            },
+            {
+                "Id": 22858490,
+                "PolNo": "C8038410",
+                "Apftnm": "Charles",
+                "Apltnm": "Kim",
+                "Submittd": "2009-10-26 00:00:00",
+                "Placed": "2009-11-19 00:00:00"
+            },
+            {
+                "Id": 22858491,
+                "PolNo": "C8038390",
+                "Apftnm": "Eleanor",
+                "Apltnm": "Siegrist",
+                "Submittd": "2009-10-26 00:00:00",
+                "Placed": "2009-11-19 00:00:00"
+            },
+            {
+                "Id": 22860023,
+                "PolNo": "C7773500",
+                "Apftnm": "DANIEL",
+                "Apltnm": "BERNARD",
+                "Submittd": "2001-06-27 00:00:00",
+                "Placed": "2001-07-23 00:00:00"
+            },
+            {
+                "Id": 22860237,
+                "PolNo": "C7573200",
+                "Apftnm": "Craig",
+                "Apltnm": "St John",
+                "Submittd": "2010-06-04 00:00:00",
+                "Placed": ""
+            },
+            {
+                "Id": 22861873,
+                "PolNo": "C7528610",
+                "Apftnm": "PAUL",
+                "Apltnm": "AYLMER",
+                "Submittd": "1997-12-05 00:00:00",
+                "Placed": "1998-03-01 00:00:00"
+            },
+            {
+                "Id": 22862603,
+                "PolNo": "C7608610",
+                "Apftnm": "STEVEN",
+                "Apltnm": "BENNETT",
+                "Submittd": "1998-10-15 00:00:00",
+                "Placed": "1999-03-08 00:00:00"
+            },
+            {
+                "Id": 22864296,
+                "PolNo": "C7816370",
+                "Apftnm": "Tara",
+                "Apltnm": "Yelman",
+                "Submittd": "2001-11-08 00:00:00",
+                "Placed": "2001-12-28 00:00:00"
+            },
+            {
+                "Id": 22864324,
+                "PolNo": "462765",
+                "Apftnm": "Anita",
+                "Apltnm": "Worthington",
+                "Submittd": "2012-02-02 00:00:00",
+                "Placed": ""
+            },
+            {
+                "Id": 22864919,
+                "PolNo": "DMS3920",
+                "Apftnm": "ROYA",
+                "Apltnm": "DELAFRAZ",
+                "Submittd": "2001-12-13 00:00:00",
+                "Placed": "2001-12-02 00:00:00"
+            },
+            {
+                "Id": 22866591,
+                "PolNo": "1319623",
+                "Apftnm": "HOLLY",
+                "Apltnm": "BROUKER",
+                "Submittd": "2002-04-29 00:00:00",
+                "Placed": ""
+            },
+            {
+                "Id": 22867027,
+                "PolNo": "C7887720",
+                "Apftnm": "BILL",
+                "Apltnm": "MANSY",
+                "Submittd": "2002-07-17 00:00:00",
+                "Placed": "2002-08-13 00:00:00"
+            },
+            {
+                "Id": 22867052,
+                "PolNo": "C7892740",
+                "Apftnm": "JOHN",
+                "Apltnm": "WARNER",
+                "Submittd": "2002-08-01 00:00:00",
+                "Placed": "2002-10-10 00:00:00"
+            },
+            {
+                "Id": 22868831,
+                "PolNo": "C7629930",
+                "Apftnm": "RICHARD",
+                "Apltnm": "MELNY",
+                "Submittd": "1999-01-21 00:00:00",
+                "Placed": "1999-03-09 00:00:00"
+            },
+            {
+                "Id": 22868899,
+                "PolNo": "303480",
+                "Apftnm": "JAMES",
+                "Apltnm": "COYNE",
+                "Submittd": "2003-06-14 00:00:00",
+                "Placed": "2003-08-19 00:00:00"
+            },
+            {
+                "Id": 22869784,
+                "PolNo": "DMS8655",
+                "Apftnm": "LAURA MARIE",
+                "Apltnm": "LeGRAND",
+                "Submittd": "2003-11-18 00:00:00",
+                "Placed": ""
+            },
+            {
+                "Id": 22869785,
+                "PolNo": "DMS8656",
+                "Apftnm": "DAVID PAUL",
+                "Apltnm": "LeGRAND",
+                "Submittd": "2003-11-18 00:00:00",
+                "Placed": ""
+            },
+            {
+                "Id": 22869800,
+                "PolNo": "DMS8671",
+                "Apftnm": "RICHARD",
+                "Apltnm": "JEWELL",
+                "Submittd": "2003-11-18 00:00:00",
+                "Placed": ""
+            },
+            {
+                "Id": 22869812,
+                "PolNo": "DMS8686",
+                "Apftnm": "INESSA",
+                "Apltnm": "HANSEN",
+                "Submittd": "2003-11-18 00:00:00",
+                "Placed": ""
+            },
+            {
+                "Id": 22860523,
+                "PolNo": "1042988",
+                "Apftnm": "Dana",
+                "Apltnm": "Billings",
+                "Submittd": "2010-07-27 00:00:00",
+                "Placed": "2010-10-22 00:00:00"
+            },
+            {
+                "Id": 22919730,
+                "PolNo": "NGL00001033",
+                "Apftnm": "VALERIE",
+                "Apltnm": "HARMON",
+                "Submittd": "2017-03-03 00:00:00",
+                "Placed": "2017-03-03 00:00:00"
+            },
+            {
+                "Id": 22935818,
+                "PolNo": "NGL00001034",
+                "Apftnm": "JON",
+                "Apltnm": "HAACK",
+                "Submittd": "2017-03-10 00:00:00",
+                "Placed": "2017-03-10 00:00:00"
+            },
+            {
+                "Id": 22935963,
+                "PolNo": "NGL00001035",
+                "Apftnm": "ANGELA",
+                "Apltnm": "HAMILTON",
+                "Submittd": "2017-03-11 00:00:00",
+                "Placed": "2017-03-11 00:00:00"
+            },
+            {
+                "Id": 22938065,
+                "PolNo": "NGL00001036",
+                "Apftnm": "PATRICIAL",
+                "Apltnm": "BYRD",
+                "Submittd": "2017-03-13 00:00:00",
+                "Placed": "2017-03-13 00:00:00"
+            },
+            {
+                "Id": 22967937,
+                "PolNo": "NGL00001037",
+                "Apftnm": "MICHAEL",
+                "Apltnm": "LANGE",
+                "Submittd": "2017-03-25 00:00:00",
+                "Placed": "2017-03-27 00:00:00"
+            },
+            {
+                "Id": 23022015,
+                "PolNo": "NGL00001038",
+                "Apftnm": "JOSHUA",
+                "Apltnm": "KURLANTZICK",
+                "Submittd": "2017-04-19 00:00:00",
+                "Placed": "2017-04-19 00:00:00"
+            },
+            {
+                "Id": 23039451,
+                "PolNo": "CC534750-Z",
+                "Apftnm": "Erik",
+                "Apltnm": "Swanson",
+                "Submittd": "2017-04-20 00:00:00",
+                "Placed": "2017-04-20 00:00:00"
+            },
+            {
+                "Id": 23050121,
+                "PolNo": "CC536120-Z",
+                "Apftnm": "Gaganbir",
+                "Apltnm": "Panjhazari",
+                "Submittd": "2017-04-26 00:00:00",
+                "Placed": "2017-04-26 00:00:00"
+            },
+            {
+                "Id": 23112512,
+                "PolNo": "NGL00001040",
+                "Apftnm": "GREG",
+                "Apltnm": "SYKES CHEERS SYKES",
+                "Submittd": "2017-05-17 00:00:00",
+                "Placed": "2017-05-17 00:00:00"
+            },
+            {
+                "Id": 23187436,
+                "PolNo": "CC524290-Z",
+                "Apftnm": "Siao",
+                "Apltnm": "Greene",
+                "Submittd": "2017-06-06 00:00:00",
+                "Placed": "2017-06-06 00:00:00"
+            },
+            {
+                "Id": 23196378,
+                "PolNo": "CC521260-Y",
+                "Apftnm": "Kegan",
+                "Apltnm": "Greene",
+                "Submittd": "2017-06-09 00:00:00",
+                "Placed": "2017-06-09 00:00:00"
+            },
+            {
+                "Id": 23217952,
+                "PolNo": "NGL00001042",
+                "Apftnm": "KERMISHA",
+                "Apltnm": "KING",
+                "Submittd": "2017-06-20 00:00:00",
+                "Placed": "2017-06-20 00:00:00"
+            },
+            {
+                "Id": 23293735,
+                "PolNo": "CC551790-Z",
+                "Apftnm": "William",
+                "Apltnm": "Chavez",
+                "Submittd": "2017-07-28 00:00:00",
+                "Placed": "2017-07-28 00:00:00"
+            },
+            {
+                "Id": 23364258,
+                "PolNo": "NGL00001044",
+                "Apftnm": "EDWIN",
+                "Apltnm": "NOMA",
+                "Submittd": "2017-08-18 00:00:00",
+                "Placed": "2017-08-18 00:00:00"
+            },
+            {
+                "Id": 23409459,
+                "PolNo": "NGL00001045",
+                "Apftnm": "MICHELLE",
+                "Apltnm": "SALDANA",
+                "Submittd": "2017-09-12 00:00:00",
+                "Placed": "2017-09-12 00:00:00"
+            },
+            {
+                "Id": 23475419,
+                "PolNo": "CC480390-Y",
+                "Apftnm": "Cortney",
+                "Apltnm": "Akerlind",
+                "Submittd": "2017-10-16 00:00:00",
+                "Placed": "2017-10-16 00:00:00"
+            },
+            {
+                "Id": 23513111,
+                "PolNo": "NGL00001046",
+                "Apftnm": "CHRIS",
+                "Apltnm": "GILLIAND",
+                "Submittd": "2017-11-02 00:00:00",
+                "Placed": "2017-11-02 00:00:00"
+            },
+            {
+                "Id": 23552791,
+                "PolNo": "NGL00001047",
+                "Apftnm": "MAHALIA",
+                "Apltnm": "ROZENSTRUIK",
+                "Submittd": "2017-11-20 00:00:00",
+                "Placed": "2017-11-20 00:00:00"
+            },
+            {
+                "Id": 23580470,
+                "PolNo": "CC273060-X",
+                "Apftnm": "Rebecca",
+                "Apltnm": "Sustak",
+                "Submittd": "2017-11-30 00:00:00",
+                "Placed": "2017-11-30 00:00:00"
+            },
+            {
+                "Id": 23592674,
+                "PolNo": "CC408440-X",
+                "Apftnm": "Shifali",
+                "Apltnm": "Saini",
+                "Submittd": "2017-12-06 00:00:00",
+                "Placed": "2017-12-06 00:00:00"
+            },
+            {
+                "Id": 23626418,
+                "PolNo": "NGL00001051",
+                "Apftnm": "JEFFREY",
+                "Apltnm": "ROSADO",
+                "Submittd": "2017-12-21 00:00:00",
+                "Placed": "2017-12-21 00:00:00"
+            },
+            {
+                "Id": 23637914,
+                "PolNo": "NGL00001052",
+                "Apftnm": "GARTH",
+                "Apltnm": "GWIAZDOWSKI GWIAZDOW",
+                "Submittd": "2017-12-31 00:00:00",
+                "Placed": "2017-12-31 00:00:00"
+            },
+            {
+                "Id": 23647632,
+                "PolNo": "NGL00001053",
+                "Apftnm": "PAMELA",
+                "Apltnm": "STONE",
+                "Submittd": "2018-01-06 00:00:00",
+                "Placed": "2018-01-06 00:00:00"
+            },
+            {
+                "Id": 23691326,
+                "PolNo": "CC506470-Y",
+                "Apftnm": "Martin",
+                "Apltnm": "Kelly",
+                "Submittd": "2018-01-29 00:00:00",
+                "Placed": "2018-01-29 00:00:00"
+            },
+            {
+                "Id": 23708494,
+                "PolNo": "NGL00001054",
+                "Apftnm": "KRISTY",
+                "Apltnm": "CHATELAIN CHATELAIN",
+                "Submittd": "2018-02-05 00:00:00",
+                "Placed": "2018-02-05 00:00:00"
+            },
+            {
+                "Id": 23723244,
+                "PolNo": "NGL00001055",
+                "Apftnm": "STEVEN",
+                "Apltnm": "FOX",
+                "Submittd": "2018-02-13 00:00:00",
+                "Placed": "2018-02-13 00:00:00"
+            },
+            {
+                "Id": 23747211,
+                "PolNo": "NGL00001057",
+                "Apftnm": "JULIE",
+                "Apltnm": "VAN INWAGEN",
+                "Submittd": "2018-02-26 00:00:00",
+                "Placed": "2018-02-27 00:00:00"
+            },
+            {
+                "Id": 23760565,
+                "PolNo": "NGL00001058",
+                "Apftnm": "NICHOLAS",
+                "Apltnm": "CHASE",
+                "Submittd": "2018-03-05 00:00:00",
+                "Placed": "2018-03-05 00:00:00"
+            },
+            {
+                "Id": 23773338,
+                "PolNo": "NGL00001059",
+                "Apftnm": "MCKENNA",
+                "Apltnm": "STEINER",
+                "Submittd": "2018-03-10 00:00:00",
+                "Placed": "2018-03-10 00:00:00"
+            },
+            {
+                "Id": 23777940,
+                "PolNo": "NGL00001060",
+                "Apftnm": "JAMIE",
+                "Apltnm": "MIDDLEBROOK",
+                "Submittd": "2018-03-13 00:00:00",
+                "Placed": "2018-03-13 00:00:00"
+            },
+            {
+                "Id": 23795819,
+                "PolNo": "NGL00001062",
+                "Apftnm": "MARK",
+                "Apltnm": "PIRONE",
+                "Submittd": "2018-03-21 00:00:00",
+                "Placed": ""
+            },
+            {
+                "Id": 23838538,
+                "PolNo": "NGL00001066",
+                "Apftnm": "DEREK",
+                "Apltnm": "STREICH",
+                "Submittd": "2018-04-12 00:00:00",
+                "Placed": "2018-04-12 00:00:00"
+            },
+            {
+                "Id": 23863409,
+                "PolNo": "CC534750-Y",
+                "Apftnm": "Erik",
+                "Apltnm": "Swanson",
+                "Submittd": "2018-04-20 00:00:00",
+                "Placed": "2018-04-20 00:00:00"
+            },
+            {
+                "Id": 23917374,
+                "PolNo": "NGL00001073",
+                "Apftnm": "ANDREW",
+                "Apltnm": "YOUNG",
+                "Submittd": "2018-05-16 00:00:00",
+                "Placed": ""
+            },
+            {
+                "Id": 23919064,
+                "PolNo": "NGL00001074",
+                "Apftnm": "ERIC",
+                "Apltnm": "BERGENN",
+                "Submittd": "2018-05-17 00:00:00",
+                "Placed": "2018-05-17 00:00:00"
+            },
+            {
+                "Id": 24006373,
+                "PolNo": "NGL00001077",
+                "Apftnm": "EILEEN",
+                "Apltnm": "WURST",
+                "Submittd": "2018-06-14 00:00:00",
+                "Placed": ""
+            },
+            {
+                "Id": 24067944,
+                "PolNo": "NGL00001080",
+                "Apftnm": "SAM",
+                "Apltnm": "ZEMA",
+                "Submittd": "2018-07-19 00:00:00",
+                "Placed": "2018-07-19 00:00:00"
+            },
+            {
+                "Id": 24072403,
+                "PolNo": "NGL00001081",
+                "Apftnm": "STEVIE",
+                "Apltnm": "TAYLOR",
+                "Submittd": "2018-07-22 00:00:00",
+                "Placed": "2018-08-13 00:00:00"
+            },
+            {
+                "Id": 24080037,
+                "PolNo": "NGL00001082",
+                "Apftnm": "GENE",
+                "Apltnm": "KLINE",
+                "Submittd": "2018-07-25 00:00:00",
+                "Placed": "2018-07-27 00:00:00"
+            },
+            {
+                "Id": 24084443,
+                "PolNo": "CC551790-Y",
+                "Apftnm": "William",
+                "Apltnm": "Chavez",
+                "Submittd": "2018-07-27 00:00:00",
+                "Placed": "2018-07-27 00:00:00"
+            },
+            {
+                "Id": 24100158,
+                "PolNo": "NGL00001083",
+                "Apftnm": "JEFFREY",
+                "Apltnm": "TERRELL",
+                "Submittd": "2018-08-06 00:00:00",
+                "Placed": "2018-08-06 00:00:00"
+            },
+            {
+                "Id": 24101381,
+                "PolNo": "NGL00001084",
+                "Apftnm": "IRMA",
+                "Apltnm": "NOBLES",
+                "Submittd": "2018-08-07 00:00:00",
+                "Placed": "2018-08-07 00:00:00"
+            },
+            {
+                "Id": 24138588,
+                "PolNo": "NGL00001085",
+                "Apftnm": "VIVIAN",
+                "Apltnm": "GIBSON",
+                "Submittd": "2018-08-13 00:00:00",
+                "Placed": "2018-08-13 00:00:00"
+            },
+            {
+                "Id": 24151186,
+                "PolNo": "NGL00001086",
+                "Apftnm": "GARY",
+                "Apltnm": "FLETCHER",
+                "Submittd": "2018-08-20 00:00:00",
+                "Placed": "2018-08-20 00:00:00"
+            },
+            {
+                "Id": 24151628,
+                "PolNo": "NGL00001087",
+                "Apftnm": "MATT",
+                "Apltnm": "NOWICKI",
+                "Submittd": "2018-08-20 00:00:00",
+                "Placed": "2018-08-20 00:00:00"
+            },
+            {
+                "Id": 24152089,
+                "PolNo": "NGL00001088",
+                "Apftnm": "JUSTIN",
+                "Apltnm": "BEAL",
+                "Submittd": "2018-08-20 00:00:00",
+                "Placed": "2018-08-20 00:00:00"
+            },
+            {
+                "Id": 24153328,
+                "PolNo": "NGL00001089",
+                "Apftnm": "YOLANDA",
+                "Apltnm": "THIERRY",
+                "Submittd": "2018-08-20 00:00:00",
+                "Placed": "2018-08-20 00:00:00"
+            },
+            {
+                "Id": 24166666,
+                "PolNo": "NGL00001090",
+                "Apftnm": "JENNIFER",
+                "Apltnm": "SANDALOW",
+                "Submittd": "2018-08-27 00:00:00",
+                "Placed": "2018-08-27 00:00:00"
+            },
+            {
+                "Id": 24177610,
+                "PolNo": "NGL00001091",
+                "Apftnm": "Marcy",
+                "Apltnm": "Thomas",
+                "Submittd": "2018-09-01 00:00:00",
+                "Placed": "2018-09-01 00:00:00"
+            },
+            {
+                "Id": 24177715,
+                "PolNo": "NGL00001092",
+                "Apftnm": "MARK",
+                "Apltnm": "BEHNEN",
+                "Submittd": "2018-09-02 00:00:00",
+                "Placed": "2018-09-04 00:00:00"
+            },
+            {
+                "Id": 24188525,
+                "PolNo": "NGL00001093",
+                "Apftnm": "VINH",
+                "Apltnm": "DO",
+                "Submittd": "2018-09-08 00:00:00",
+                "Placed": "2018-09-12 00:00:00"
+            },
+            {
+                "Id": 24212749,
+                "PolNo": "NGL00001094",
+                "Apftnm": "DONNA",
+                "Apltnm": "NEWTON",
+                "Submittd": "2018-09-20 00:00:00",
+                "Placed": "2018-09-20 00:00:00"
+            },
+            {
+                "Id": 24222920,
+                "PolNo": "NGL00001095",
+                "Apftnm": "ANDREW",
+                "Apltnm": "LANGEMEIER",
+                "Submittd": "2018-09-26 00:00:00",
+                "Placed": ""
+            }
+        ]
     }
 ]
