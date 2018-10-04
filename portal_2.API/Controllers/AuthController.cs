@@ -55,7 +55,7 @@ namespace portal_2.API.Controllers
 
             var claims = new[]
             {
-                new Claim(ClaimTypes.NameIdentifier, brokerFromRepo.BrokerId.ToString()),
+                new Claim(ClaimTypes.NameIdentifier, brokerFromRepo.Id.ToString()),
                 new Claim(ClaimTypes.Name, brokerFromRepo.Username)
             };
 

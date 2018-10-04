@@ -6,17 +6,18 @@ namespace portal_2.API.Dtos
 {
     public class BrokerForDetailedDto
     {
-        public int BrokerId { get; set; }
+        public int Id { get; set; }
+        public int BrokerTempId { get; set; }
         public int EntityId { get; set; }
         public string Username { get; set; }
         public string Fstname { get; set; }
         public string Lstname { get; set; }
-        public int BranchId { get; set; }
-        public int RbmId { get; set; }
-        public int AffiliateId { get; set; }
+        public string Branch { get; set; }
+        public string Rbm { get; set; }
+        public string Affiliate { get; set; }
         public string Address { get; set; }
         public string City { get; set; }   
-        public int StateId { get; set; }
+        public string State { get; set; }
         public int ZipCode { get; set; }
         public string Email { get; set; }  
         public string AltEmail { get; set; }

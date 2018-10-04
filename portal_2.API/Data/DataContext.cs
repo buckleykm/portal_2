@@ -7,7 +7,6 @@ namespace portal_2.API.Data
     {
         public DataContext(DbContextOptions<DataContext> options) : base (options) {}
 
-        public DbSet<Value> Values { get; set; }
         public DbSet<Broker> Brokers { get; set; }
         public DbSet<App> Apps { get; set; }
       

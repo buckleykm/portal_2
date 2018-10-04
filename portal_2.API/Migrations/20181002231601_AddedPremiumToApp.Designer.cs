@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using portal_2.API.Data;
 
 namespace portal_2.API.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20181002231601_AddedPremiumToApp")]
+    partial class AddedPremiumToApp
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -29,7 +31,7 @@ namespace portal_2.API.Migrations
 
                     b.Property<string>("Apltnm");
 
-                    b.Property<int>("BrokerId");
+                    b.Property<int?>("BrokerId");
 
                     b.Property<int>("CaseId");
 
@@ -111,8 +113,7 @@ namespace portal_2.API.Migrations
                 {
                     b.HasOne("portal_2.API.Models.Broker")
                         .WithMany("Apps")
-                        .HasForeignKey("BrokerId")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .HasForeignKey("BrokerId");
                 });
 #pragma warning restore 612, 618
         }

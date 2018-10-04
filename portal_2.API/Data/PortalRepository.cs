@@ -1,5 +1,7 @@
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
+using portal_2.API.Helpers;
 using Microsoft.EntityFrameworkCore;
 using portal_2.API.Models;
 
@@ -23,18 +25,32 @@ namespace portal_2.API.Data
             _context.Remove(entity);
         }
 
-        public async Task<Broker> GetBroker(int brokerid)
+        public async Task<IEnumerable<App>> GetApps()
         {
-            var broker = await _context.Brokers.Include(a => a.Apps).FirstOrDefaultAsync(b => b.BrokerId == brokerid);
+            var apps = await _context.Apps.ToListAsync();
+
+            return apps;
+        }
+
+        public async Task<IEnumerable<App>> GetAppsForBroker(int brokerid)
+        {
+            var apps = await _context.Apps.Where(a => a.BrokerId == brokerid).ToListAsync();
+
+            return apps;
+        }
+
+        public async Task<Broker> GetBroker(int id)
+        {
+            var broker = await _context.Brokers.Include(a => a.Apps).FirstOrDefaultAsync(b => b.Id == id);
 
             return broker;
         }
 
-        public async Task<IEnumerable<Broker>> GetBrokers()
+        public async Task<PagedList<Broker>> GetBrokers(BrokerParams brokerParams)
         {
-            var brokers = await _context.Brokers.Include(a => a.Apps).ToListAsync();
+            var brokers = _context.Brokers.Include(a => a.Apps);
             
-            return brokers;
+            return await PagedList<Broker>.CreateAsync(brokers, brokerParams.PageNumber, brokerParams.PageSize);
         }
 
         public async Task<bool> SaveAll()
@@ -42,5 +58,6 @@ namespace portal_2.API.Data
             return await _context.SaveChangesAsync() > 0;
 
         }
+
     }
 }

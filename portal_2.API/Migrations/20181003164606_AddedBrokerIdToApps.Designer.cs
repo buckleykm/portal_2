@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using portal_2.API.Data;
@@ -9,31 +10,40 @@ using portal_2.API.Data;
 namespace portal_2.API.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20180927195712_ExtendedBrokerClass")]
-    partial class ExtendedBrokerClass
+    [Migration("20181003164606_AddedBrokerIdToApps")]
+    partial class AddedBrokerIdToApps
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.1.1-rtm-30846");
+                .HasAnnotation("ProductVersion", "2.1.1-rtm-30846")
+                .HasAnnotation("Relational:MaxIdentifierLength", 128)
+                .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
             modelBuilder.Entity("portal_2.API.Models.App", b =>
                 {
                     b.Property<int>("Id")
-                        .ValueGeneratedOnAdd();
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Apftnm");
 
                     b.Property<string>("Apltnm");
 
-                    b.Property<int?>("BrokerId");
+                    b.Property<int>("BrokerId");
+
+                    b.Property<int>("CaseId");
 
                     b.Property<DateTime?>("Placed");
 
                     b.Property<string>("PolNo");
 
-                    b.Property<DateTime>("Submittd");
+                    b.Property<string>("Status");
+
+                    b.Property<DateTime?>("Submittd");
+
+                    b.Property<decimal>("premium");
 
                     b.HasKey("Id");
 
@@ -44,18 +54,21 @@ namespace portal_2.API.Migrations
 
             modelBuilder.Entity("portal_2.API.Models.Broker", b =>
                 {
-                    b.Property<int>("BrokerId")
-                        .ValueGeneratedOnAdd();
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Address");
 
-                    b.Property<int>("AffiliateId");
+                    b.Property<string>("Affiliate");
 
                     b.Property<string>("AltEmail");
 
                     b.Property<string>("AltPhone");
 
-                    b.Property<int>("BranchId");
+                    b.Property<string>("Branch");
+
+                    b.Property<int>("BrokerTempId");
 
                     b.Property<string>("City");
 
@@ -83,36 +96,25 @@ namespace portal_2.API.Migrations
 
                     b.Property<int>("PhoneExt");
 
-                    b.Property<int>("RbmId");
+                    b.Property<string>("Rbm");
 
-                    b.Property<int>("StateId");
+                    b.Property<string>("State");
 
                     b.Property<string>("Username");
 
                     b.Property<int>("ZipCode");
 
-                    b.HasKey("BrokerId");
-
-                    b.ToTable("Brokers");
-                });
-
-            modelBuilder.Entity("portal_2.API.Models.Value", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<string>("Name");
-
                     b.HasKey("Id");
 
-                    b.ToTable("Values");
+                    b.ToTable("Brokers");
                 });
 
             modelBuilder.Entity("portal_2.API.Models.App", b =>
                 {
                     b.HasOne("portal_2.API.Models.Broker")
                         .WithMany("Apps")
-                        .HasForeignKey("BrokerId");
+                        .HasForeignKey("BrokerId")
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618
         }
