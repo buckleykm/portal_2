@@ -10,9 +10,9 @@ namespace portal_2.API.Data
         void Add<T>(T entity) where T: class;
         void Delete<T>(T entity) where T: class;
         Task<bool> SaveAll();
-        Task<PagedList<Broker>> GetBrokers(BrokerParams brokerParams);
-        Task<Broker> GetBroker(int id);
+        Task<PagedList<User>> GetUsers(UserParams userParams);
+        Task<User> GetUser(int id);
         Task<IEnumerable<App>> GetApps();
-        Task<IEnumerable<App>> GetAppsForBroker(int brokerid);
+        Task<IEnumerable<App>> GetAppsForUser(int userid);
     }
 }

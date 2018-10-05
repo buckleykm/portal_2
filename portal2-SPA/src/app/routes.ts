@@ -1,9 +1,9 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { BrokerQuotesComponent } from './brokers/broker-quotes/broker-quotes.component';
-import { BrokerAppsComponent } from './brokers/broker-apps/broker-apps.component';
+import { UserQuotesComponent } from './users/user-quotes/user-quotes.component';
+import { UserAppsComponent } from './users/user-apps/user-apps.component';
 import { AuthGuard } from './_guards/auth.guard';
-import { BrokerAppListResolver } from './_resolvers/brokerAppList.resolver';
+import { UserAppListResolver } from './_resolvers/userAppList.resolver';
 
 export const appRoutes: Routes = [
     { path: 'home', component: HomeComponent },
@@ -12,9 +12,9 @@ export const appRoutes: Routes = [
         runGuardsAndResolvers: 'always',
         canActivate: [AuthGuard],
         children: [
-            { path: 'apps/:brokerid', component: BrokerAppsComponent,
-                resolve: {apps: BrokerAppListResolver} },
-            { path: 'quotes', component: BrokerQuotesComponent },
+            { path: 'apps/:userId', component: UserAppsComponent,
+                resolve: {apps: UserAppListResolver} },
+            { path: 'quotes', component: UserQuotesComponent },
         ]
     },
     { path: '**', redirectTo: 'home', pathMatch: 'full' }

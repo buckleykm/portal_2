@@ -2,12 +2,12 @@ using System;
 
 namespace portal_2.API.Dtos
 {
-    public class BrokerForListDto
+    public class UserForListDto
     {
         public int Id { get; set; }
         public int BrokerTempId { get; set; }
         public int EntityId { get; set; }
-        public string Username { get; set; }
+        public string UserName { get; set; }
         public string Fstname { get; set; }
         public string Lstname { get; set; }
         public string Branch { get; set; }

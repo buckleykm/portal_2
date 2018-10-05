@@ -15,7 +15,7 @@ namespace portal_2.API.Models
         public DateTime? Placed { get; set; }
         public string Status { get; set; }
         public decimal premium { get; set; }
-        public int BrokerId { get; set; }
+        public int UserId { get; set; }
    
     }
 }

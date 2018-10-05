@@ -4,10 +4,12 @@
 
         <div>
             <ag-grid-angular 
-                style="width: 100%; height: 500px;"     
+                style="width: 80%; height: 500px;"     
                 class="ag-theme-material"
                 [enableSorting]="true"
                 [enableFilter]="true"
+                [pagination]="true"
+                [paginationPageSize]=25
                 [rowData]="rowData | async" 
                 [columnDefs]="columnDefs"
                 >

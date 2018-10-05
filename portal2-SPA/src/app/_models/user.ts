@@ -1,6 +1,6 @@
-import { App } from './App';
+import { App } from './app';
 
-export interface Broker {
+export interface User {
     id: number;
     brokerTempId: number;
     username: string;

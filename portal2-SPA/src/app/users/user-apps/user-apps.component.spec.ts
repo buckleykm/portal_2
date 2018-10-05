@@ -2,22 +2,21 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
+import { UserAppsComponent } from './broker-apps.component';
 
-import { BrokerAppsComponent } from './broker-apps.component';
-
-describe('BrokerAppsComponent', () => {
-  let component: BrokerAppsComponent;
-  let fixture: ComponentFixture<BrokerAppsComponent>;
+describe('UserAppsComponent', () => {
+  let component: UserAppsComponent;
+  let fixture: ComponentFixture<UserAppsComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ BrokerAppsComponent ]
+      declarations: [ UserAppsComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(BrokerAppsComponent);
+    fixture = TestBed.createComponent(UserAppsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

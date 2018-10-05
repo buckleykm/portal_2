@@ -15,12 +15,12 @@ import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
 import { ErrorInterceptorProvider } from './_services/error.interceptor';
 import { AlertifyService } from './_services/alertify.service';
-import { BrokerQuotesComponent } from './brokers/broker-quotes/broker-quotes.component';
-import { BrokerAppsComponent } from './brokers/broker-apps/broker-apps.component';
+import { UserQuotesComponent } from './users/user-quotes/user-quotes.component';
+import { UserAppsComponent } from './users/user-apps/user-apps.component';
 import { appRoutes } from './routes';
 import { AuthGuard } from './_guards/auth.guard';
-import { BrokerService } from './_services/broker.service';
-import { BrokerAppListResolver } from './_resolvers/brokerAppList.resolver';
+import { UserService } from './_services/user.service';
+import { UserAppListResolver } from '././_resolvers/userAppList.resolver';
 
 
 
@@ -34,8 +34,8 @@ export function tokenGetter() {
       NavComponent,
       HomeComponent,
       RegisterComponent,
-      BrokerAppsComponent,
-      BrokerQuotesComponent
+      UserAppsComponent,
+      UserQuotesComponent
    ],
    imports: [
       BrowserModule,
@@ -58,8 +58,8 @@ export function tokenGetter() {
       ErrorInterceptorProvider,
       AlertifyService,
       AuthGuard,
-      BrokerService,
-      BrokerAppListResolver
+      UserService,
+      UserAppListResolver
    ],
    bootstrap: [
       AppComponent

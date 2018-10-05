@@ -1,4 +1,6 @@
 using System.Collections.Generic;
+using System.Linq;
+using Microsoft.AspNetCore.Identity;
 using Newtonsoft.Json;
 using portal_2.API.Models;
 
@@ -6,38 +8,26 @@ namespace portal_2.API.Data
 {
     public class Seed
     {
-        private readonly DataContext _context;
-        public Seed(DataContext context)
+        private readonly UserManager<User> _userManager;
+        public Seed(UserManager<User> userManager)
         {
-            _context = context;
+            _userManager = userManager;
+
         }
 
-        public void SeedBrokers()
+        public void SeedUsers()
         {
-            var brokerData = System.IO.File.ReadAllText("Data/BrokerSeedData.json");
-            var brokers = JsonConvert.DeserializeObject<List<Broker>>(brokerData);
-            foreach (var broker in brokers)
+            if (!_userManager.Users.Any())
             {
-                byte[] passwordHash, passwordSalt;
-                CreatePasswordHash("P@ssw0rd", out passwordHash, out passwordSalt);
-
-                broker.PasswordHash = passwordHash;
-                broker.PasswordSalt = passwordSalt;
-                broker.Username = broker.Username.ToLower();
-
-                _context.Brokers.Add(broker);
+                var userData = System.IO.File.ReadAllText("Data/BrokerSeedData.json");
+                var users = JsonConvert.DeserializeObject<List<User>>(userData);
+                foreach (var user in users)
+                {
+                   _userManager.CreateAsync(user, "P@ssw0rd").Wait();                    
+                }
+               
             }
-
-            _context.SaveChanges();
         }
-
-        private void CreatePasswordHash(string password, out byte[] passwordHash, out byte[] passwordSalt)
-        {
-            using (var hmac = new System.Security.Cryptography.HMACSHA512())
-            {
-                passwordSalt = hmac.Key;
-                passwordHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
-            };
-        }
+        
     }
 }

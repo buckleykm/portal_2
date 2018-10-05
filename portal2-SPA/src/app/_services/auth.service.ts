@@ -17,10 +17,10 @@ export class AuthService {
   login(model: any) {
     return this.http.post(this.baseUrl + 'login', model).pipe(
       map((response: any) => {
-        const broker = response;
-        if (broker) {
-          localStorage.setItem('token', broker.token);
-          this.decodedToken = this.jwtHelper.decodeToken(broker.token);
+        const user = response;
+        if (user) {
+          localStorage.setItem('token', user.token);
+          this.decodedToken = this.jwtHelper.decodeToken(user.token);
           console.log(this.decodedToken);
         }
       })

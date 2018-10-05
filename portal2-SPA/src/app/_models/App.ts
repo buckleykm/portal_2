@@ -9,5 +9,5 @@ export interface App {
     placed: Date;
     status: string;
     premium: number;
-    brokerid: number;
+    userId: number;
 }

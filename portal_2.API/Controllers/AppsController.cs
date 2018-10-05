@@ -6,7 +6,6 @@ using portal_2.API.Helpers;
 
 namespace portal_2.API.Controllers
 {
-    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class AppsController : ControllerBase
@@ -25,10 +24,10 @@ namespace portal_2.API.Controllers
             return Ok(apps);
         }
 
-        [HttpGet("{brokerid}")]
-        public async Task<IActionResult> GetAppsForBroker (int brokerid)
+        [HttpGet("{userid}")]
+        public async Task<IActionResult> GetAppsForUser (int userid)
         {
-            var apps = await _repo.GetAppsForBroker(brokerid);
+            var apps = await _repo.GetAppsForUser(userid);
 
             return Ok(apps);
         }

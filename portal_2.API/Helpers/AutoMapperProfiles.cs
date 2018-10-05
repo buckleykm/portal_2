@@ -8,8 +8,8 @@ namespace portal_2.API.Helpers
     {
         public AutoMapperProfiles()
         {
-            CreateMap<Broker, BrokerForListDto>();
-            CreateMap<Broker, BrokerForDetailedDto>();
+            CreateMap<User, UserForListDto>();
+            CreateMap<User, UserForDetailedDto>();
         }
     }
 }

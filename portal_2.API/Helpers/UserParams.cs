@@ -1,6 +1,6 @@
 namespace portal_2.API.Helpers
 {
-    public class BrokerParams
+    public class UserParams
     {
         private const int MaxPageSize = 50;
         public int PageNumber { get; set; } = 1;
@@ -11,10 +11,7 @@ namespace portal_2.API.Helpers
             set { pageSize = (value > MaxPageSize) ? MaxPageSize : value;}
         }
 
-        public int UserId { get; set; }
-        public string Gender { get; set; }
-        public int MinAge { get; set; } = 18;
-        public int MaxAge { get; set; } = 99;
+        public int Id { get; set; }
         public string OrderBy { get; set; }
     }
 }

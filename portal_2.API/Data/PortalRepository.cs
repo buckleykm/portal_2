@@ -32,25 +32,25 @@ namespace portal_2.API.Data
             return apps;
         }
 
-        public async Task<IEnumerable<App>> GetAppsForBroker(int brokerid)
+        public async Task<IEnumerable<App>> GetAppsForUser(int userid)
         {
-            var apps = await _context.Apps.Where(a => a.BrokerId == brokerid).ToListAsync();
+            var apps = await _context.Apps.Where(a => a.UserId == userid).ToListAsync();
 
             return apps;
         }
 
-        public async Task<Broker> GetBroker(int id)
+        public async Task<User> GetUser(int id)
         {
-            var broker = await _context.Brokers.Include(a => a.Apps).FirstOrDefaultAsync(b => b.Id == id);
+            var user = await _context.Users.Include(a => a.Apps).FirstOrDefaultAsync(b => b.Id == id);
 
-            return broker;
+            return user;
         }
 
-        public async Task<PagedList<Broker>> GetBrokers(BrokerParams brokerParams)
+        public async Task<PagedList<User>> GetUsers(UserParams userParams)
         {
-            var brokers = _context.Brokers.Include(a => a.Apps);
+            var users = _context.Users.Include(a => a.Apps);
             
-            return await PagedList<Broker>.CreateAsync(brokers, brokerParams.PageNumber, brokerParams.PageSize);
+            return await PagedList<User>.CreateAsync(users, userParams.PageNumber, userParams.PageSize);
         }
 
         public async Task<bool> SaveAll()

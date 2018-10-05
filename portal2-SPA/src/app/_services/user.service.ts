@@ -2,15 +2,15 @@ import { Injectable } from '@angular/core';
 import { environment } from '../../environments/environment';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { Broker } from '../_models/broker';
-import { App } from '../_models/App';
+import { User } from '../_models/user';
+import { App } from '../_models/app';
 import { PaginatedResult } from '../_models/pagination';
 import { map } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
 })
-export class BrokerService {
+export class UserService {
   baseUrl = environment.apiUrl;
 
   constructor(private http: HttpClient) { }
@@ -19,12 +19,12 @@ export class BrokerService {
     return this.http.get<App[]>(this.baseUrl + 'apps');
   }
 
-  getAppsForBroker(brokerid): Observable<App[]> {
-    return this.http.get<App[]>(this.baseUrl + 'apps/' + brokerid);
+  getAppsForUser(userId): Observable<App[]> {
+    return this.http.get<App[]>(this.baseUrl + 'apps/' + userId);
   }
 
-  getBrokers(page?, itemsPerPage?): Observable<PaginatedResult<Broker[]>> {
-    const paginatedResult: PaginatedResult<Broker[]> = new PaginatedResult<Broker[]>();
+  getUsers(page?, itemsPerPage?): Observable<PaginatedResult<User[]>> {
+    const paginatedResult: PaginatedResult<User[]> = new PaginatedResult<User[]>();
 
     let params = new HttpParams();
     if (page != null && itemsPerPage != null) {
@@ -32,7 +32,7 @@ export class BrokerService {
       params = params.append('pageSize', itemsPerPage);
     }
 
-    return this.http.get<Broker[]>(this.baseUrl + 'brokers', { observe: 'response', params})
+    return this.http.get<User[]>(this.baseUrl + 'users', { observe: 'response', params})
     .pipe(
       map(response => {
         paginatedResult.result = response.body;
@@ -44,8 +44,8 @@ export class BrokerService {
     );
   }
 
-  getBroker(id): Observable<Broker> {
-    return this.http.get<Broker>(this.baseUrl + 'brokers/' + id);
+  getUser(id): Observable<User> {
+    return this.http.get<User>(this.baseUrl + 'users/' + id);
   }
 
 }
